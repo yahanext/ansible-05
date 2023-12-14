@@ -87,6 +87,8 @@ yaha@yahawork:~/netology/ansible-04/playbook/roles/clickhouse$
 ![https://github.com/yahanext/ansible-05/blob/main/scr1.png](https://github.com/yahanext/ansible-05/blob/main/scr1.png)
 4. Добавьте несколько assert в verify.yml-файл для  проверки работоспособности vector-role (проверка, что конфиг валидный, проверка успешности запуска и др.). 
 5. Запустите тестирование роли повторно и проверьте, что оно прошло успешно.
+![https://github.com/yahanext/ansible-05/blob/main/scr2.png](https://github.com/yahanext/ansible-05/blob/main/scr2.png)
+
 5. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.
 
 ### Tox
