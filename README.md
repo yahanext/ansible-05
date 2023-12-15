@@ -101,7 +101,16 @@ yaha@yahawork:~/netology/ansible-04/playbook/roles/clickhouse$
 ![https://github.com/yahanext/ansible-05/blob/main/scr3.png](https://github.com/yahanext/ansible-05/blob/main/scr3.png)
 5. Создайте облегчённый сценарий для `molecule` с драйвером `molecule_podman`. Проверьте его на исполнимость.
 6. Пропишите правильную команду в `tox.ini`, чтобы запускался облегчённый сценарий.
+```
+Правильная команда
+ commands =
+    {posargs:molecule test -s tox --destroy always}
+```
 8. Запустите команду `tox`. Убедитесь, что всё отработало успешно.
+```
+Не успешно, ошибк совметимости версий```
+![https://github.com/yahanext/ansible-05/blob/main/scr4.png](https://github.com/yahanext/ansible-05/blob/main/scr4.png)
+
 9. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.
 
 После выполнения у вас должно получится два сценария molecule и один tox.ini файл в репозитории. Не забудьте указать в ответе теги решений Tox и Molecule заданий. В качестве решения пришлите ссылку на  ваш репозиторий и скриншоты этапов выполнения задания. 
