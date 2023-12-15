@@ -108,7 +108,7 @@ yaha@yahawork:~/netology/ansible-04/playbook/roles/clickhouse$
 ```
 8. Запустите команду `tox`. Убедитесь, что всё отработало успешно.
 ```
-Не успешно, ошибк совметимости версий пакетов.
+Не успешно, ошибки совметимости версий пакетов.
 ```
 ![https://github.com/yahanext/ansible-05/blob/main/scr4.png](https://github.com/yahanext/ansible-05/blob/main/scr4.png)
 
