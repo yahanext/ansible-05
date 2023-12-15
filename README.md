@@ -96,7 +96,8 @@ yaha@yahawork:~/netology/ansible-04/playbook/roles/clickhouse$
 1. Добавьте в директорию с vector-role файлы из [директории](./example).
 2. Запустите `docker run --privileged=True -v <path_to_repo>:/opt/vector-role -w /opt/vector-role -it aragast/netology:latest /bin/bash`, где path_to_repo — путь до корня репозитория с vector-role на вашей файловой системе.
 3. Внутри контейнера выполните команду `tox`, посмотрите на вывод.
-```Ошибка вполне ожидаемая
+```
+Ошибка вполне ожидаемая
 ```
 ![https://github.com/yahanext/ansible-05/blob/main/scr3.png](https://github.com/yahanext/ansible-05/blob/main/scr3.png)
 5. Создайте облегчённый сценарий для `molecule` с драйвером `molecule_podman`. Проверьте его на исполнимость.
